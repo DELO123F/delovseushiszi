@@ -33,4 +33,23 @@ img{
     width: 320px;
 }
 
+    @media(max-width: 768px){
+        section { 
+            display: block;
+        }
+        .text {
+            width: 100%;
+        }
+        .button {
+            width: 85%;
+        }
+        .picture {
+            width: 100%;
+        }
+        .picture img {
+            margin: 0 auto;
+            display: block;
+        }
+    }
 
+ 
